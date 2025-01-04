@@ -1,29 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title> Cooper Proctor </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooper Proctor</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <center>
-        <h1> Cooper Proctor </h1>
+    <header>
+        <div class="container">
+            <h1>Cooper Proctor</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <a href="CooperProctor_Resume.pdf" target="_blank">Resume</a>
-                    </div>
+                <h2>About Me</h2>
+                <p>Hello! I am Cooper Proctor, an undergraduate junior studying Neuroscience and Computer Science at Cornell University. I am passionate about computational neuroscience, machine learning, and innovative solutions in technology.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <a href="#" target="_blank">VR Hand Tracking and Physics Simulation</a>
+                    <p>A project exploring physics-based interactions with 3D objects using VR headset cameras.</p>
+                </div>
+                <div class="project">
+                    <a href="#" target="_blank">Recipe Generator with RNNs</a>
+                    <p>An RNN-based system to generate creative recipes from a dataset of ingredients.</p>
                 </div>
             </div>
-        <h2> Projects </h2>
+        </section>
+
+        <section id="resume">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <a href="CooperProctor_Resume.pdf" target="_blank">Projects</a>
-                    </div>
-                </div>
+                <h2>Resume</h2>
+                <a href="CooperProctor_Resume.pdf" target="_blank" class="button">Download Resume</a>
             </div>
-    </center>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:cooper.proctor@email.com">cooper.proctor@email.com</a></p>
+                <p>GitHub: <a href="https://github.com/CooperProctor" target="_blank">github.com/CooperProctor</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/cooperproctor" target="_blank">linkedin.com/in/cooperproctor</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cooper Proctor. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
